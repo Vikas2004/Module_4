@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Module_4 App Challenge</title>
+
+  <meta name="description"
+    content="Quiz app to show the length of the word entered">
+
+  <!-- get current Bootstrap Material Design styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+</head>
+<body>  <fieldset class="mt-2">
+    <article id="counter" class="col-md-4 ">
+    <label for="guest">Enter your name (2 to 20 characters):</label>
+    <input v-model="guest" id="guest" type="text" minlength="2" maxlength="20">
+  </fieldset>
+
+  <button id="addButton" class="btn btn-primary">Count</button>
+</body>
